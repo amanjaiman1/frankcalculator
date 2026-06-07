@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="FrankCalculator">
+  <defs>
+    <linearGradient id="fc-grad" x1="48" y1="48" x2="464" y2="464" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#00d4ff"/>
+      <stop offset="0.5" stop-color="#06b6d4"/>
+      <stop offset="1" stop-color="#00ff88"/>
+    </linearGradient>
+    <linearGradient id="fc-sheen" x1="256" y1="16" x2="256" y2="300" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.38"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Brand squircle tile -->
+  <rect x="16" y="16" width="480" height="480" rx="132" fill="url(#fc-grad)"/>
+  <!-- Glassy top sheen -->
+  <rect x="16" y="16" width="480" height="480" rx="132" fill="url(#fc-sheen)"/>
+
+  <!-- Monogram "F" + rising bar chart, in deep brand navy -->
+  <g fill="#06121c">
+    <!-- F: vertical stem -->
+    <rect x="150" y="146" width="64" height="220" rx="20"/>
+    <!-- F: top arm -->
+    <rect x="150" y="146" width="172" height="64" rx="20"/>
+    <!-- F: middle arm -->
+    <rect x="150" y="236" width="128" height="58" rx="20"/>
+
+    <!-- Ascending bars (growth / calculator keys), aligned to the stem baseline -->
+    <rect x="292" y="322" width="30" height="44" rx="12"/>
+    <rect x="334" y="294" width="30" height="72" rx="12"/>
+    <rect x="376" y="262" width="30" height="104" rx="12"/>
+  </g>
+</svg>

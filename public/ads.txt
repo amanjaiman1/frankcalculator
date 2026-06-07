@@ -1,0 +1,5 @@
+# ads.txt — Authorized Digital Sellers (IAB)
+# Replace pub-0000000000000000 below with your Google AdSense publisher ID
+# (the digits after "ca-" in your ca-pub-XXXXXXXXXXXXXXXX client ID).
+# This file must be served at https://your-domain.com/ads.txt
+google.com, pub-0000000000000000, DIRECT, f08c47fec0942fa0
